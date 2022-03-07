@@ -1,0 +1,25 @@
+.items {
+  display: grid;
+  grid-template-rows: repeat(1, 4fr);
+  margin: auto;
+  padding: 20px 20px;
+  border: 1px solid rgb(129, 129, 235);
+}
+.addBook,
+.addPen,
+.addNoteBook,
+.addInkpen {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: aquamarine;
+}
+.remBook,
+.remPen,
+.remNotebook,
+.remInkpen {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: aquamarine;
+}
